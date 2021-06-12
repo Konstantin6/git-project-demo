@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://picjumbo.com/wp-content/uploads/young-girl-on-a-walk-near-the-shore-at-sunset-2210x1474.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    
+    display: flex;
+    padding: 2% 6%;
+    align-content:space-between;
+    justify-content:flex-end;
+    word-spacing: 8px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header h1{
+    position: relative;
+    top: 56px;
+    color:#fff;
+    font-size: 33px;
+    width:30%
+    
+}
+.header h1:hover{
+    color:lime;
+    transition: 0.5s;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: lime;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.main{
+    color:#fff;
+    text-align: center;
+    position: relative;
+    top:70px;
+    font-size: 24px;
+}
+#about{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px ;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    background-color: rgb(252, 239, 216);
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid #fff;
+    font-size: 17px;
+    background: white ;
+    opacity: 85%;
+    position: relative;
+    cursor:pointer;
+    top:150px;
+    
+}
+.hero-btn:hover{
+    color:#fff;
+    background: transparent;
+    border:none;
+    transition: 0.3s;
+}
+#career-obj{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px ;
+}
+#skills{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px ;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#exp{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px ; 
+
+}
+
+ol{
+    list-style-type: none;
+    background-color: rgb(252, 239, 216);
+}
+#contact{
+    background-color: black;
+    color:white;
+    display: flex;
+    padding: 2% 6%;
+    align-content:space-between;
+    justify-content:flex-end;
+    word-spacing: 8px;
+    
+}
+.contact-links{
+    flex:1;
+    text-align: right;
+}
+.contact-links ul li{
+    list-style: none;
+    
+   
+
+}
+.contact-links ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+ i{
+width: 10px;
+height: 10px;
+padding-right: 10px;
+
+}
+footer{
+    color:white;
+    background-color: black;
+}
+.white-line{
+    width:100%;
+    height 1px;
+    background-color: white;
+}
+.white-line p{
+    padding: 2px;
+}
