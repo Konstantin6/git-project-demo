@@ -3,84 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">  
+
 
     <title>Cv</title>
 </head>
 <body>
  
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg  navbar-scroll">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-1" href="#!"> My CV</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#!">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#career-obj">Career Objectve</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#exp">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      
+        <!--Section: Design Block-->
+        <div class="container d-flex justify-content-center ">
+        <ul class="main">
+            <li>Name:Lungu</li>
+            <li>Surname:Constantin</li>
+            <li>Age:17</li>
+            <li>Country:Moldova</li>
+            <a href="#about"><button type="button" class="btn btn-outline-light mt-5">Read Information</button></a>
+            
+        </ul>
+        </div>
+        <!--Section: Design Block-->
+      </header>
+      
      
-     <section class="header">
-        <h1>
-            CV About Myself
-           
-        </h1>
-     <nav>
-         <div class="nav-links">
-         <ul>
-             <li>
-                 <a href="#about">
-                     <h4> About</h4>
-                 </a>
-             </li>
-             <li>
-                 <a href="#career-obj">
-                     <h4>Career Objective</h4>
-                 </a>
-             </li>
-             <li>
-                 <a href="#skills">
-                     <h4>Skills</h4>
-                 </a>
-             </li>
-             <li>
-                 <a href="#exp">
-                     <h4>Experience</h4>
-                 </a>
-             </li>
-             <li>
-                 <a href="#contact">
-                     <h4>Contacts</h4>
-                 </a>
-             </li>
-         </ul>
-         </div>
-     </nav>
-     <ul class="main">
-         <li>Name:Lungu</li>
-         <li>Surname:Constantin</li>
-         <li>Age:17</li>
-         <li>Country:Moldova</li>
-         <a href="#about" class="hero-btn">Read Information</a>
-         
-     </ul>
-     
-    </section>
+
      
     
  
  <main>
-     
-         <section id="about"><h2>About</h2>
+    <section id="about">
             
-<p>Since 1987, Bill Gates has been included in the Forbes list of the world's wealthiest people.[15][16] From 1995 to 2017, he held the Forbes title of the richest person in the world every year except from 2010 to 2013.[17] In October 2017, he was surpassed by Amazon founder and CEO Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[18] As of May 2021, Gates had an estimated net worth of US$144 billion, making him the fourth-richest person in the world.</p>
-        </section>
+    <div class="col-12 text-center fs-2 ">About</div>
+      <div class="col-12 d-flex justify-content-center ">   
+<p class="col-8 align-center rounded-3">Since 1987, Bill Gates has been included in the Forbes list of the world's wealthiest people.[15][16] From 1995 to 2017, he held the Forbes title of the richest person in the world every year except from 2010 to 2013.[17] In October 2017, he was surpassed by Amazon founder and CEO Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[18] As of May 2021, Gates had an estimated net worth of US$144 billion, making him the fourth-richest person in the world.</p>
+      </div></section>
         <section id="career-obj">
-            <h2>
-                Career Objective
-            </h2>
-            <p>MA Student in English at Stanford University, made the Dean’s List for three consecutive years (2015-2017), with two study abroad experiences and a semester-long research internship in Oxford,<br> UK looking to use my strong research and writing skills,br as well as my expertise in contemporary literature in the position of Editorial Assistant at Penguin Random House.</p>
+            <div class="col-12 text-center fs-2">Career Objective</div>
+      <div class="col-12 d-flex justify-content-center ">   
+<p class="col-8 align-center rounded-3">    MA Student in English at Stanford University, made the Dean’s List for three consecutive years (2015-2017), with two study abroad experiences and a semester-long research internship in Oxford,<br> UK looking to use my strong research and writing skills,br as well as my expertise in contemporary literature in the position of Editorial Assistant at Penguin Random House.
+</p>
+      </div>
         </section>
         
-         <section id="skills"> <h2>Skills</h2>
+         <section id="skills"> <div class="col-12 text-center fs-2">Skills</div>
             <!-- I KNOW THIS MUST BE USED WITH LI,BUT IT 
             LOOKS COOLER ONLY IF YOU USE ONLY OL -->
-            <ol>
-                <div class="row">
-                    <div class="course-col">
+            
+              <div class="d-flex justify-content-around">
+
+                    <div class="course-col ">
                         <p>Fast typing</p>
                         <p>HTML and CSS knowledge</p>
                         <p>English Language </p>
@@ -96,17 +105,17 @@
                         <p>Professional Gamer</p>
                     </div>
                 </div>
-            </ol>
+              </div>
         </section>
-         <section id="exp"><h2>Experience</h2>
-        <ol>
-            <li>Assisted in hiring and managing a pool of freelancers as needed, including development editors,
+         <section id="exp"><div class="col-12 text-center fs-2">Experience</div>
+        <ol class="list-group align-items-center">
+            <li class="list-group-item list-group-item-warning">Assisted in hiring and managing a pool of freelancers as needed, including development editors,
                 <br> copy editors, proofreaders, indexers, recipe testers, and technical editors, including remote and on-site employees.</li><br>
-            <li>Assisted in the development, design, and preparation of sales materials.</li><br>
-            <li>Collected and distributed incoming mail and processed outgoing mail.</li><br>
-            <li>Served as the primary contact for incoming phone calls.</li><br>
-            <li>Provided general and editorial support to the staff as requested.</li><br>
-            <li>Experienced a lot of programming languages</li><br>
+            <li class="list-group-item list-group-item-warning">Assisted in the development, design, and preparation of sales materials.</li><br>
+            <li class="list-group-item list-group-item-warning">Collected and distributed incoming mail and processed outgoing mail.</li><br>
+            <li class="list-group-item list-group-item-warning">Served as the primary contact for incoming phone calls.</li><br>
+            <li class="list-group-item list-group-item-warning">Provided general and editorial support to the staff as requested.</li><br>
+            <li class="list-group-item list-group-item-warning" list-group-item-warning>Experienced a lot of programming languages</li><br>
         </ol>
         </section>
          <section id="contact"><h2>Contacts</h2>
@@ -133,5 +142,8 @@
               
           </div>
       </footer>
+
+      <script src="https://kit.fontawesome.com/1ad2e98449.js" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
